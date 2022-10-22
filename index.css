@@ -1,0 +1,98 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    /* Added */
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 13px;
+    color: #000000;
+}
+
+
+.container {
+    width: 375px;
+    margin: 0 auto;
+}
+
+/* Header part */
+
+.header-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #C6C6C6;
+}
+
+.space {
+    padding: 16px;
+    
+}
+
+.app-title {
+    width: 127px;
+    height: 34px;
+}
+
+.avatar-image {
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+}
+
+/* Section part */
+
+.first-section {
+    display: flex;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.first-section .avatar-image {
+    padding-left: 10px;
+    padding-right: 7px;
+}
+
+.bold-text {
+    font-weight: 700;
+    line-height: 16px;
+}
+
+.small-text {
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.first-section .bold-text,
+.first-section .small-text,
+.second-section .bold-text,
+.second-section p {
+    margin: 0;
+}
+
+/* Main Image */
+
+#main-image {
+    width: 375px;
+    height: 375px;
+}
+
+/* Second section */
+
+.second-section {
+    padding: 19px 0 16px 13px;
+}
+
+.icon {
+    width: 23.3px;
+    height: 22.15px;
+    margin-right: 20px;
+}
+
+.second-section .icon,
+.second-section .bold-text,
+.second-section p {
+    padding-bottom: 12px;
+}
+
+.heart:hover {
+    background: red;
+}
