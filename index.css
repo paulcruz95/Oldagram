@@ -1,0 +1,109 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    /* Added */
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 13px;
+    color: #000000;
+    background: #FFFFFF;
+}
+
+
+.container {
+    width: 375px;
+    margin: 0 auto;
+}
+
+/* Header part */
+
+.header-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #C6C6C6;
+}
+
+.space {
+    padding: 16px;
+    
+}
+
+.app-title {
+    width: 127px;
+    height: 34px;
+}
+
+.avatar-image {
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+}
+
+/* Section part */
+
+.first-section {
+    display: flex;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.first-section .avatar-image {
+    padding-left: 10px;
+    padding-right: 7px;
+}
+
+.bold-text {
+    font-weight: 700;
+    line-height: 16px;
+}
+
+.small-text {
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.first-section .bold-text,
+.first-section .small-text {
+    margin: 0;
+}
+
+/* Main Image */
+
+#main-image {
+    width: 375px;
+    height: 375px;
+}
+
+/* Second section */
+
+.second-section {
+    padding: 10px 13px 16px 13px;
+}
+
+.icon {
+    width: 22.3px;
+    height: 23.3px;
+    padding: 7px;
+    margin-right: 10px;
+}
+
+/* Strech */
+.second-section button {
+    background: #FFFFFF;
+    border: 0;
+    padding: 0;
+}
+
+.icon:hover {
+    background: rgb(236, 174, 184);
+    border-radius: 5px;
+}
+
+.second-section .last-text {
+    margin-bottom: 0;
+}
+
+.second-section p {
+    padding-left: 7px;
+}
+
